@@ -1,0 +1,182 @@
+#A
+
+#1
+# print("5 Dan")
+# print("5 * 2 = %d"%(5*2))
+
+#2
+# a = int(input())
+# b = int(input())
+#
+# print("%d * %d = %d"%(a, b, a*b))
+# print("%d / %d = %d"%(a, b, a/b))
+
+#3
+# yard = float(input())
+# print("%d yard = %.3f"%(yard, yard*100*0.9144))
+
+#4
+# n1 = input()
+# n2 = input()
+# print("%s and %s"%(n1, n2))
+# print("%s&%s"%(n1,n2))
+
+#5
+# l = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15]
+# ll = []
+# a = int(input())
+# for i in l:
+#     if i % a ==0:
+#        ll.append(i)
+# print(ll)
+
+#6
+# a = {1:'dog', 2:'cat', 3:'chick'}
+# n = int(input("Number? "))
+# if n==1 or n==2 or n==3:
+#     print(a[n])
+# else:
+#     print("I don't know.")
+
+#7
+# l = []
+# sum = 0
+# avg = 0
+# while True:
+#     a = int(input())
+#     l.append(a)
+#     if a >= 100:
+#         break
+#
+# for i in l:
+#     sum += i
+# avg = sum/(len(l))
+# print(sum)
+# print("%.1f"%(avg))
+
+#8
+# l = []
+# b = 0
+# c = 0
+# for i in range(10):
+#     a = int(input())
+#     l.append(a)
+#
+# for j in l:
+#     if j % 3 == 0:
+#         b += 1
+# for k in l:
+#     if k % 5 == 0:
+#         c += 1
+# print("Multiples of 3 : %d" %(b))
+# print("Multiples of 5 : %d" %(c))
+
+#9
+# a = float(input())
+# b = float(input())
+# aa = a**(1/2)
+# bb = b**(1/2)
+# print(aa)
+# print(bb)
+# c = abs(aa - bb)
+# if (c % int(c)) >= 0.5:
+#     print(int(c)+1)
+# elif (c % int(c)) == 0:
+#     print(int(c)-1)
+# else:
+#     print(int(c))
+
+#------------------------------------------------------------
+#B
+
+#1
+
+# print("1plus1 = Gwi yo mi")
+# print("1 + 1 = %d"%(1+1))
+
+#2
+
+# x = float(input())
+# y = float(input())
+# print(x*y)
+
+#3
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+#
+# sum = a+b+c
+# avg = sum//3
+# print(sum)
+
+
+#4
+
+# a = input()
+# b = input()
+# c = int(input())
+# print(b*c+a)
+
+#5
+
+# l = [1,2]
+# a = int(input())
+# l.append(a)
+# for i in range(2, -1, -1):
+#     print(l[i])
+
+#6
+# a = float(input())
+# if a <= 50.80:
+#     print('Flyweight')
+# elif a > 50.80 and a <= 61.23:
+#     print('Lightweight')
+# elif a > 61.23 and a <= 72.57:
+#     print('Middleweight')
+# elif a > 72.57 and a <= 88.45:
+#     print('Cruiserweight')
+# else:
+#     print('Heavyweight')
+
+#7
+# l = []
+# odd = 0
+# even = 0
+# while True:
+#     a = int(input())
+#     if a == 0:
+#         break
+#     l.append(a)
+# print(l)
+# for i in l:
+#     if i % 2 == 0:
+#         even += 1
+#     else:
+#         odd += 1
+# print(odd)
+# print(even)
+
+#8
+
+# l = []
+# sum = 0
+# avg = 0
+# for i in range(4):
+#     a = int(input())
+#     l.append(a)
+# for j in l:
+#     sum += j
+# avg = sum/(len(l))
+# print("%.1f"%avg)
+# if avg >= 80:
+#     print('pass')
+# else:
+#     print('fail')
+
+#9
+# def circle(x):
+#     return x*x*3.14
+#
+# r = int(input())
+# print("%.2f"%circle(r))
